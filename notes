@@ -1,0 +1,4 @@
+each folder (microservice) will have its owne package.json file
+create new nodejs project (npm init --y)
+install these packages in all (microservice) (npm i bcrypt cors dotenv express jsonwebtoken mongoose uuid winston)
+install this package only in gateway (parent server) (npm i express-http-proxy)
